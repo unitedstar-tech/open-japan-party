@@ -1,3 +1,5 @@
+- Table of Content
+{:toc}
 # Open Japan党綱領
 
 ## 前文: Our vision
