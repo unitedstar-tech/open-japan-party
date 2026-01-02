@@ -1,0 +1,47 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A4FFF"/>
+      <stop offset="100%" stop-color="#00C2FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Symbol: Open Circle -->
+  <circle
+    cx="100"
+    cy="100"
+    r="55"
+    fill="none"
+    stroke="url(#blueGradient)"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-dasharray="260 80"
+    transform="rotate(-30 100 100)"
+  />
+
+  <!-- Party Name -->
+  <text
+    x="180"
+    y="95"
+    font-family="Inter, Helvetica, Arial, sans-serif"
+    font-size="42"
+    font-weight="600"
+    fill="#0A2A4A"
+    letter-spacing="1.5"
+  >
+    Open Japan
+  </text>
+
+  <!-- Slogan -->
+  <text
+    x="182"
+    y="130"
+    font-family="Inter, Helvetica, Arial, sans-serif"
+    font-size="18"
+    font-weight="400"
+    fill="#3A7BD5"
+    letter-spacing="0.8"
+  >
+    Open Japan, open future!
+  </text>
+</svg>

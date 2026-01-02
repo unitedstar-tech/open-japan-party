@@ -1,3 +1,4 @@
+![Logo](logo.svg "Open Japan Party")
 # Open Japan
 Open Japanは、Cosmopolitan libertarianismに立脚した社会を実現するための新しい政党です。
 ## Cosmopolitan libertarianismとは

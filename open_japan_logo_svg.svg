@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Radiating lines (sunburst effect) -->
+  <g opacity="0.2">
+    <line x1="400" y1="200" x2="350" y2="80" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="400" y1="200" x2="380" y2="85" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="400" y1="200" x2="410" y2="85" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="400" y1="200" x2="440" y2="85" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="400" y1="200" x2="300" y2="90" stroke="#60a5fa" stroke-width="2"/>
+    <line x1="400" y1="200" x2="500" y2="90" stroke="#60a5fa" stroke-width="2"/>
+    <line x1="400" y1="200" x2="270" y2="110" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="400" y1="200" x2="530" y2="110" stroke="#60a5fa" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Open door symbol (main icon) -->
+  <g transform="translate(400, 200)">
+    <!-- Left door -->
+    <path d="M -60 -80 L -60 80 L -20 80 L -20 -80 Z" 
+          fill="#1e40af" opacity="0.9"/>
+    <path d="M -60 -80 L -90 -70 L -90 70 L -60 80 Z" 
+          fill="#3b82f6" opacity="0.8"/>
+    
+    <!-- Right door -->
+    <path d="M 60 -80 L 60 80 L 20 80 L 20 -80 Z" 
+          fill="#1e40af" opacity="0.9"/>
+    <path d="M 60 -80 L 90 -70 L 90 70 L 60 80 Z" 
+          fill="#3b82f6" opacity="0.8"/>
+    
+    <!-- Door handles -->
+    <circle cx="-35" cy="0" r="4" fill="#60a5fa"/>
+    <circle cx="35" cy="0" r="4" fill="#60a5fa"/>
+    
+    <!-- Light rays from center -->
+    <path d="M 0 -70 L -8 -90 L 8 -90 Z" fill="#60a5fa" opacity="0.6"/>
+    <path d="M -15 -65 L -25 -85 L -10 -85 Z" fill="#60a5fa" opacity="0.5"/>
+    <path d="M 15 -65 L 10 -85 L 25 -85 Z" fill="#60a5fa" opacity="0.5"/>
+  </g>
+  
+  <!-- Globe/Connection lines (subtle background element) -->
+  <g opacity="0.15">
+    <circle cx="400" cy="200" r="140" fill="none" stroke="#3b82f6" stroke-width="1"/>
+    <circle cx="400" cy="200" r="120" fill="none" stroke="#60a5fa" stroke-width="1"/>
+    <circle cx="400" cy="200" r="100" fill="none" stroke="#3b82f6" stroke-width="1"/>
+  </g>
+  
+  <!-- Party name -->
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="52" 
+        font-weight="bold" fill="#1e40af" text-anchor="middle">
+    Open Japan
+  </text>
+  
+  <!-- Slogan -->
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="20" 
+        fill="#3b82f6" text-anchor="middle" font-style="italic">
+    Open Japan, Open Future!
+  </text>
+  
+  <!-- Decorative underline -->
+  <line x1="260" y1="320" x2="540" y2="320" 
+        stroke="#60a5fa" stroke-width="2" opacity="0.5"/>
+</svg>
